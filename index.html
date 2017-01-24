@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Tags</title>
+
+	<style>
+	table
+	{
+		text-align: center;
+	}
+
+	table tr td:nth-of-type(3)
+	{
+		width:45%;
+	}
+
+	table tr:nth-of-type(2n+1)
+	{
+		background-color: #F5EDDA;
+	}
+
+	table tr:nth-of-type(2n)
+	{
+	background-color:#FBF4E4;
+	}
+
+
+	</style>
+</head>
+
+<body>
+
+	<h1 style="color:seagreen; font-size:2.3em; font-family:Verdana;border-bottom:2px dashed seagreen">List of various HTML Tags</h1>
+
+
+	<table border="2px solid black" width="100%" cellpadding="5px" cellspacing="0">
+		<tr>
+			<th>SI.</th>
+			<th>Tag</th>
+			<th>Description</th>
+			<th>Example</th>
+		</tr>
+
+		<tr>
+			<td>1.</td>
+			<td> &lt;a href="url" &gt; &lt; a &gt; </td>
+			<td>Use to create links in content. Use the title attribute whenever the contents of the &lt;a&gt;…&lt;/a&gt;  pair do not accurately describe what you’ll get from selecting the link. Title attribute often displays as a tooltip in visual browsers, which may be a helpful usability aid.</td>
+			<td> <a href="http://google.com">Google</a></td>
+		</tr>	
+
+		<tr>
+			<td>2.</td>
+			<td> &lt;b &gt; &lt; b &gt; </td>
+			<td>Bold text</td>
+			<td> This <b>word</b> is bolded</a></td>
+		</tr>
+
+		<tr>
+			<td>3.</td>
+			<td> &lt;body&gt; &lt; /body &gt; </td>
+			<td>Document body. Every content goes inside</td>
+			<td> This whole table along with everything else is
+				inside the body tag</td>
+		</tr>
+
+		<tr>
+			<td>4.</td>
+			<td> &lt;div &gt; &lt; /div &gt; </td>
+			<td>Specifies a logical division within a document. Use it to separate or identify chunks of content that are not otherwise distinguished naturally using other tags.One of the most common HTML tags.</td>
+			<td> <div style="border:1px solid black">This is inside a div</div></td>
+		</tr>
+
+		<tr>
+			<td>5.</td>
+			<td> &lt;form&gt; &lt; /form &gt; </td>
+			<td> Essential for data input </td>
+
+			<td> <form>
+				<input type="text">
+				<input type=checkbox>Value1</input>
+				<input type="submit" value="Submit">
+
+			</form> </td>
+		</tr>
+
+		<tr>
+			<td>6.</td>
+			<td> &lt;h1 &gt; &lt; /h1 &gt; <br> 
+			&lt;h2 &gt; &lt; /h2 &gt; <br>
+			&lt;h3 &gt; &lt; /h3 &gt; <br>
+			&lt;h4 &gt; &lt; /h4 &gt; <br>
+			&lt;h5 &gt; &lt; /h5 &gt; <br>
+			&lt;h6 &gt; &lt; /h6 &gt; <br>	
+			  </td>
+			<td>Heading for different sections along with various sizes</td>
+			<td> <h1>This is heading 1</h1> <br>
+				<h2>This is heading 1</h2> <br>
+				<h3>This is heading 1</h3> <br>
+				<h4>This is heading 1</h4> <br>
+				<h5>This is heading 1</h5> <br>
+				<h6>This is heading 1</h6> 	</td>
+		</tr>
+
+		<tr>
+			<td>7.</td>
+			<td> &lt;hr &gt;</td>
+			<td>Display info with no semantic value – never use it.
+			 “Horizontal”, by definition, is a visual attribute.</td>
+			<td>This is a text <hr> Above is a horizontal line</td>
+		</tr>
+
+		<tr>
+			<td>8.</td>
+			<td> &lt;img src="url" &gt;</td>
+			<td>The image tag.Always use the alt or longdesc attributes 
+				when the image has content value</td>
+			<td> <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQslCJSpXzx0ySIrIv2tS4Inke-Sk45sX7z8dO7jxEMDpV0aQf9Tg" alt="Lion" title="A Lion"></td>
+		</tr>
+
+		<tr>
+			<td>9.</td>
+			<td> &lt;input type="type" &gt;</td>
+			<td>Various type of input values used in forms</td>
+			<td> <input type="text">
+				<input type="checkbox">
+				<input type="radio">
+				<input type="submit" value="submit">
+
+
+			 </td>
+		</tr>
+
+		<tr>
+			<td>10.</td>
+			<td> &lt;i &gt; &lt; /i &gt; </td>
+			<td>Italicized text</td>
+			<td><i> This text is italicized</i></td>
+		</tr>
+
+		<tr>
+			<td>11.</td>
+			<td> &lt;p&gt; &lt; /p &gt; </td>
+			<td>Only use to denote a paragraph of text. 
+				Never use for spacing alone.</td>
+			<td> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor</p></td>
+		</tr>
+
+		<tr>
+			<td>12.</td>
+			<td> &lt;select &gt; &lt; /select &gt; </td>
+			<td>Used for drop down menus inside forms</td>
+			<td> 
+				<select>
+					<option>Value 1</option>
+					<option>Value 2</option>
+					<option>Value 3</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>13.</td>
+			<td> &lt;span &gt; &lt; /span &gt; </td>
+			<td>Use to apply meaning (and style) to a span of text that goes with the flow of content </td>
+			<td> The following email <span style="color:blue;font-family:sans-serif">gg123@gmail.com</span> is blue using an
+				&lt;span&gt; tag</td>
+		</tr>
+
+		<tr>
+			<td>14.</td>
+			<td> &lt;table &gt; &lt; /table &gt; </td>
+			<td>Use for repeated data that has a naturally tabular form. Never use for layout purposes.</td>
+			<td>
+			 <table border="1px solid black" cellspacing="0" align="center" width="100%">
+			 	<tr>
+				 	<th>A</th>
+				 	<th>B</th>
+				 	<th>C</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+
+			</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td>15.</td>
+			<td> &lt;ul &gt; &lt; /ul &gt; </td>
+			<td>Unordered list with common bullet points</td>
+			<td> 
+				<ul>
+					<li>Name</li>
+					<li>About</li>
+					<li>Contact</li>
+					<li>Accomplishments</li>
+
+				</ul>
+			</td>
+		</tr>
+
+		<tr>
+			<td>16.</td>
+			<td> &lt;ol&gt; &lt; /ol &gt; </td>
+			<td>Ordered List with numbers as bullet points</td>
+			<td> 
+				<ol>
+					<li>Name</li>
+					<li>About</li>
+					<li>Contact</li>
+					<li>Accomplishments</li>
+				</ol>
+
+			</td>
+		</tr>
+
+		<tr>
+			<td>17.</td>
+			<td> &lt;progress &gt; &lt; /progress &gt; </td>
+			<td>This tag represents the progress of a tag</td>
+			<td> <progress value="56" max="100"></progress>	</td>
+		</tr>
+
+		<tr>
+			<td>18.</td>
+			<td> &lt;sub &gt; &lt; /sub &gt; </td>
+			<td> Subscript text appears half a character below the normal line,
+			 and is sometimes rendered in a smaller font.</td>
+			<td> H<sub>2</sub>O, C<sub>2</sub>H<sub>4</sub></td>
+		</tr>
+
+		<tr>
+			<td>19</td>
+			<td> &lt;sup &gt; &lt; /sup &gt; </td>
+			<td>Superscript text appears half a character above the normal line,
+			 and is sometimes rendered in a smaller font.</td>
+			<td> (a+b) <sup>2</sup>= a <sup>2</sup> + 2ab + b <sup>2</sup></td>
+		</tr>
+
+		<tr>
+			<td>20.</td>
+			<td> &lt;textarea &gt; &lt; /textarea &gt; </td>
+			<td>The &lt;textarea&gt; tag defines a multi-line text input control.</td>
+			<td> 
+				<textarea rows="5" cols="50">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</textarea>
+
+			</td>
+		</tr>
+
+
+	</table>
+
+</body>
+</html>
